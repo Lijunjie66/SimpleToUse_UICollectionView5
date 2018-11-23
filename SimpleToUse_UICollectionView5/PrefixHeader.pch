@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  SimpleToUse_UICollectionView5
+//
+//  Created by Geraint on 2018/11/23.
+//  Copyright © 2018 kilolumen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Masonry/Masonry.h>
+
+#endif

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC9A2703D097245A7ECDE70 /* libPods-SimpleToUse_UICollectionView5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C879E9E987E066B3F70A8DBF /* libPods-SimpleToUse_UICollectionView5.a */; };
 		9CFD17B421A7D0DE007ECAD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD17B321A7D0DE007ECAD8 /* AppDelegate.m */; };
 		9CFD17B721A7D0DE007ECAD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD17B621A7D0DE007ECAD8 /* ViewController.m */; };
 		9CFD17BA21A7D0DE007ECAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD17B821A7D0DE007ECAD8 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42BB4B39997B632154B2E2EA /* Pods-SimpleToUse_UICollectionView5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleToUse_UICollectionView5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleToUse_UICollectionView5/Pods-SimpleToUse_UICollectionView5.debug.xcconfig"; sourceTree = "<group>"; };
 		9CFD17AF21A7D0DE007ECAD8 /* SimpleToUse_UICollectionView5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleToUse_UICollectionView5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFD17B221A7D0DE007ECAD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9CFD17B321A7D0DE007ECAD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +31,9 @@
 		9CFD17C121A7D0E0007ECAD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CFD17C821A7D386007ECAD8 /* MyLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLayout.h; sourceTree = "<group>"; };
 		9CFD17C921A7D386007ECAD8 /* MyLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLayout.m; sourceTree = "<group>"; };
+		9CFD17CB21A7E2B7007ECAD8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C879E9E987E066B3F70A8DBF /* libPods-SimpleToUse_UICollectionView5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleToUse_UICollectionView5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8047EA18343466B72573886 /* Pods-SimpleToUse_UICollectionView5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleToUse_UICollectionView5.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleToUse_UICollectionView5/Pods-SimpleToUse_UICollectionView5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC9A2703D097245A7ECDE70 /* libPods-SimpleToUse_UICollectionView5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CA398D677FDC5C7CA176460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42BB4B39997B632154B2E2EA /* Pods-SimpleToUse_UICollectionView5.debug.xcconfig */,
+				F8047EA18343466B72573886 /* Pods-SimpleToUse_UICollectionView5.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9CFD17A621A7D0DE007ECAD8 = {
 			isa = PBXGroup;
 			children = (
 				9CFD17B121A7D0DE007ECAD8 /* SimpleToUse_UICollectionView5 */,
 				9CFD17B021A7D0DE007ECAD8 /* Products */,
+				4CA398D677FDC5C7CA176460 /* Pods */,
+				F10F7E8519D9E64C5F11BB46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,7 @@
 				9CFD17B621A7D0DE007ECAD8 /* ViewController.m */,
 				9CFD17C821A7D386007ECAD8 /* MyLayout.h */,
 				9CFD17C921A7D386007ECAD8 /* MyLayout.m */,
+				9CFD17CB21A7E2B7007ECAD8 /* PrefixHeader.pch */,
 				9CFD17B821A7D0DE007ECAD8 /* Main.storyboard */,
 				9CFD17BB21A7D0E0007ECAD8 /* Assets.xcassets */,
 				9CFD17BD21A7D0E0007ECAD8 /* LaunchScreen.storyboard */,
@@ -76,6 +94,14 @@
 			path = SimpleToUse_UICollectionView5;
 			sourceTree = "<group>";
 		};
+		F10F7E8519D9E64C5F11BB46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C879E9E987E066B3F70A8DBF /* libPods-SimpleToUse_UICollectionView5.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +109,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CFD17C521A7D0E0007ECAD8 /* Build configuration list for PBXNativeTarget "SimpleToUse_UICollectionView5" */;
 			buildPhases = (
+				5FE9D51CFAA3906579DF3495 /* [CP] Check Pods Manifest.lock */,
 				9CFD17AB21A7D0DE007ECAD8 /* Sources */,
 				9CFD17AC21A7D0DE007ECAD8 /* Frameworks */,
 				9CFD17AD21A7D0DE007ECAD8 /* Resources */,
@@ -140,6 +167,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FE9D51CFAA3906579DF3495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleToUse_UICollectionView5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CFD17AB21A7D0DE007ECAD8 /* Sources */ = {
@@ -289,9 +341,12 @@
 		};
 		9CFD17C621A7D0E0007ECAD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BB4B39997B632154B2E2EA /* Pods-SimpleToUse_UICollectionView5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/geraint/Desktop/SimpleToUse_UICollectionView5/SimpleToUse_UICollectionView5/PrefixHeader.pch;
 				INFOPLIST_FILE = SimpleToUse_UICollectionView5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,9 +360,12 @@
 		};
 		9CFD17C721A7D0E0007ECAD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8047EA18343466B72573886 /* Pods-SimpleToUse_UICollectionView5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/geraint/Desktop/SimpleToUse_UICollectionView5/SimpleToUse_UICollectionView5/PrefixHeader.pch;
 				INFOPLIST_FILE = SimpleToUse_UICollectionView5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
